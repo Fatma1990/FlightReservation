@@ -1,17 +1,19 @@
 package com.company;
 
-public class Main {
+import java.util.Scanner;
 
-    public class Fibonacci {
+class Main {
+
+    public static class Fibonacci {
 
         public static void main(String[] args) {
             int F0=0,F1=1;
             int number;
             int result ;
             Scanner in = new Scanner(System.in);
-            System.out.println("lütfen istediğiniz fibonacci terimini kadar giriniz?");
+            System.out.println("please enter numbers?");
             number=in.nextInt();
-
+d4
             if(number==0)
                 System.out.println(F0);
             else {
@@ -27,3 +29,4 @@ public class Main {
             }
         }
     }
+}
